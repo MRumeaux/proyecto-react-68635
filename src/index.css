@@ -40,9 +40,11 @@ body {
     letter-spacing: 2px;
 }
 
-.link-menu {
+.menu a{
     color: white;
 }
+
+/* Contenedor lista productos */
 
 .contenido-tienda {
     max-width: 1200px;
@@ -54,7 +56,6 @@ body {
     justify-content: center;
 }
 
-/* Contenedor lista productos */
 .preview-articulo {
     width: calc(25% - 18px); 
     min-width: 260px; 
@@ -95,7 +96,7 @@ body {
     font-size: 22px;
 }
 
-.sumar-al-carrito{
+.ver-detalle-producto{
     border: none;
     outline: 0;
     padding: 12px;
@@ -107,7 +108,7 @@ body {
     font-size: 18px;
 }
 
-.sumar-al-carrito:hover{
+.ver-detalle-producto:hover{
     opacity: 0.7;
 }
 
