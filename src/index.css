@@ -44,8 +44,6 @@ body {
     color: white;
 }
 
-/* Contenedor productos */
-
 .contenido-tienda {
     max-width: 1200px;
     margin: 0 auto;
@@ -56,6 +54,7 @@ body {
     justify-content: center;
 }
 
+/* Contenedor lista productos */
 .preview-articulo {
     width: calc(25% - 18px); 
     min-width: 260px; 
@@ -111,3 +110,34 @@ body {
 .sumar-al-carrito:hover{
     opacity: 0.7;
 }
+
+/* Contenedor descripcion productos */
+
+.contenido-descripcion {
+    background-color: white;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.detalle-producto{
+    display: flex;
+    gap: 12px;
+}
+
+.detalle-producto img{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.alinear-detalle{
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
