@@ -1,3 +1,7 @@
+:root{
+    --tono-principal: rgba(110, 25, 110, 0.9);
+}
+
 body {
     margin: 0;
     background-color: #f5f5f5;
@@ -12,7 +16,7 @@ body {
     width: 100%;
     z-index: 1000;
     backdrop-filter: blur(10px);
-    background-color: rgba(110, 25, 110, 0.9);
+    background-color: var(--tono-principal);
 }
 
 .navbar {
@@ -65,7 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: white;
+    background-color: white;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -96,7 +100,9 @@ body {
     font-size: 22px;
 }
 
-.ver-detalle-producto{
+/* Botón Genérico Descripcion Prod + Agregar Carrito */
+
+.boton-descripcion-y-carrito{
     border: none;
     outline: 0;
     padding: 12px;
@@ -108,11 +114,11 @@ body {
     font-size: 18px;
 }
 
-.ver-detalle-producto:hover{
+.boton-descripcion-y-carrito:hover{
     opacity: 0.7;
 }
 
-/* Contenedor descripcion productos */
+/* Contenedor descripción productos */
 
 .contenido-descripcion {
     background-color: white;
@@ -140,5 +146,37 @@ body {
     align-content: center;
     padding: 10px;
     text-align: center;
+}
+
+/* Apartado modulo contador detalle producto */
+
+.contador-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contador-item button{
+    background-color: var(--tono-principal);
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid black;
+    transition: .2s;
+}
+
+.contador-item button:hover{
+    background-color: white;
+    color: black;
 }
 

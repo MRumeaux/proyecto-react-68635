@@ -6,7 +6,8 @@
         "categoria": "facial",
         "descripcion": "Gel facial para limpieza profunda, ideal para pieles mixtas a grasas.",
         "precio": 5200,
-        "img": "https://www.lidherma.com/thumbnails/lidherma_formula_limpieza_21_680xauto.jpg"
+        "img": "https://www.lidherma.com/thumbnails/lidherma_formula_limpieza_21_680xauto.jpg",
+        "stock": 15
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "categoria": "facial",
         "descripcion": "Emulsión hidratante de rápida absorción con efecto calmante.",
         "precio": 6300,
-        "img": "https://www.lidherma.com/thumbnails/lidherma_cellactive_hidro_cream1_680xauto.jpg"
+        "img": "https://www.lidherma.com/thumbnails/lidherma_cellactive_hidro_cream1_680xauto.jpg",
+        "stock": 15
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "categoria": "corporal",
         "descripcion": "Crema corporal con efecto hidratante prolongado, apta para todo tipo de piel.",
         "precio": 4800,
-        "img": "https://www.lidherma.com/thumbnails/ldh_vitaminada_con_retinol_480gr_mobile_450xauto.jpg"
+        "img": "https://www.lidherma.com/thumbnails/ldh_vitaminada_con_retinol_480gr_mobile_450xauto.jpg",
+        "stock": 15
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "categoria": "facial",
         "descripcion": "Sérum iluminador con Vitamina C pura para un rostro más radiante.",
         "precio": 7500,
-        "img": "https://www.lidherma.com/thumbnails/lidherma_radian_c_brightening_serum1_450x450.jpg"
+        "img": "https://www.lidherma.com/thumbnails/lidherma_radian_c_brightening_serum1_450x450.jpg",
+        "stock": 15
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "categoria": "facial",
         "descripcion": "Tratamiento antiedad para uso diario, ayuda a reducir arrugas.",
         "precio": 8700,
-        "img": "https://www.lidherma.com/uploads/lidherma_silver_age_night_cream1.jpg"
+        "img": "https://www.lidherma.com/uploads/lidherma_silver_age_night_cream1.jpg",
+        "stock": 15
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "categoria": "facial",
         "descripcion": "Mousse facial con alfa hidroxiácidos, promueve renovación celular.",
         "precio": 5100,
-        "img": "https://idraetdermopurity.com/wp-content/uploads/2025/01/MOUSSE-CLEANSER.png"
+        "img": "https://idraetdermopurity.com/wp-content/uploads/2025/01/MOUSSE-CLEANSER.png",
+        "stock": 15
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "categoria": "corporal",
         "descripcion": "Loción corporal reafirmante con colágeno y elastina.",
         "precio": 5600,
-        "img": "https://idraetdermopurity.com/wp-content/uploads/Porfolio/Profesional/Salicylic-Lotion.png"
+        "img": "https://idraetdermopurity.com/wp-content/uploads/Porfolio/Profesional/Salicylic-Lotion.png",
+        "stock": 15
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "categoria": "facial",
         "descripcion": "Sérum que proporciona hidratación profunda gracias al ácido hialurónico.",
         "precio": 7900,
-        "img": "https://idraetdermopurity.com/wp-content/uploads/2019/09/10553-HYALURONIC-SERUM-Serum-Hialuronico-01.png"
+        "img": "https://idraetdermopurity.com/wp-content/uploads/2019/09/10553-HYALURONIC-SERUM-Serum-Hialuronico-01.png",
+        "stock": 15
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "categoria": "corporal",
         "descripcion": "Crema corporal que ayuda a mejorar la textura y firmeza de la piel.",
         "precio": 7200,
-        "img": "https://http2.mlstatic.com/D_NQ_NP_623803-MLU73420558821_122023-O.webp"
+        "img": "https://http2.mlstatic.com/D_NQ_NP_623803-MLU73420558821_122023-O.webp",
+        "stock": 15
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "categoria": "facial",
         "descripcion": "Tratamiento para el contorno de ojos que reduce líneas finas y ojeras.",
         "precio": 6200,
-        "img": "https://www.heavenimagenes.com/heavencommerce/cbed7736-4c76-4fd0-b719-9ff071142423/images/v2/IDRAET/1908062035574014_01_medium.jpg"
+        "img": "https://www.heavenimagenes.com/heavencommerce/cbed7736-4c76-4fd0-b719-9ff071142423/images/v2/IDRAET/1908062035574014_01_medium.jpg",
+        "stock": 15
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "categoria": "facial",
         "descripcion": "Espuma limpiadora para piel sensible, libre de sulfatos.",
         "precio": 5000,
-        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/6221-34be2fefb85d7f3ca115872208587732-640-0.jpg"
+        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/6221-34be2fefb85d7f3ca115872208587732-640-0.jpg",
+        "stock": 15
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "categoria": "corporal",
         "descripcion": "Gel de uso corporal que mejora la firmeza y elasticidad de la piel.",
         "precio": 6700,
-        "img": "https://ceyc.com.ar/wp-content/uploads/2018/04/p_2_2_5_225-Gel-cream-reafirmante-con-nano-liposomas-2.jpg"
+        "img": "https://ceyc.com.ar/wp-content/uploads/2018/04/p_2_2_5_225-Gel-cream-reafirmante-con-nano-liposomas-2.jpg",
+        "stock": 15
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "categoria": "facial",
         "descripcion": "Renovador celular que mejora la textura de la piel y reduce manchas.",
         "precio": 7400,
-        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/204-c1-ce35b443cbfc58e93c16558443781123-640-0.jpg"
+        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/204-c1-ce35b443cbfc58e93c16558443781123-640-0.jpg",
+        "stock": 15
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "categoria": "corporal",
         "descripcion": "Loción ligera y nutritiva ideal para pieles secas.",
         "precio": 4900,
-        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/614c1-4b1f16036ec8c4074615777343022008-480-0.jpg"
+        "img": "https://acdn-us.mitiendanube.com/stores/001/088/940/products/614c1-4b1f16036ec8c4074615777343022008-480-0.jpg",
+        "stock": 15
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "categoria": "facial",
         "descripcion": "Sérum nocturno que regenera y repara la piel durante el descanso.",
         "precio": 8100,
-        "img": "https://http2.mlstatic.com/D_842562-MLU73883766081_012024-C.jpg"
+        "img": "https://http2.mlstatic.com/D_842562-MLU73883766081_012024-C.jpg",
+        "stock": 15
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "categoria": "corporal",
         "descripcion": "Exfoliante corporal con micropartículas naturales que renuevan la piel.",
         "precio": 5400,
-        "img": "https://http2.mlstatic.com/D_734799-MLA81200220754_122024-O.jpg"
+        "img": "https://http2.mlstatic.com/D_734799-MLA81200220754_122024-O.jpg",
+        "stock": 15
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "categoria": "facial",
         "descripcion": "Máscara purificante que ayuda a remover impurezas y controlar oleosidad.",
         "precio": 6200,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksDS2LZQfQSaiArGRauheTK6Wq4tJidDqWg&s"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksDS2LZQfQSaiArGRauheTK6Wq4tJidDqWg&s",
+        "stock": 15
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
         "categoria": "corporal",
         "descripcion": "Crema reparadora intensiva para zonas resecas como manos y codos.",
         "precio": 4600,
-        "img": "https://http2.mlstatic.com/D_865205-MLA49154390670_022022-O.jpg"
+        "img": "https://http2.mlstatic.com/D_865205-MLA49154390670_022022-O.jpg",
+        "stock": 15
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
         "categoria": "facial",
         "descripcion": "Bruma refrescante que hidrata al instante y revitaliza el rostro.",
         "precio": 4300,
-        "img": "https://www.lidherma.com/thumbnails/lidherma_solares_brumissage1_680xauto.jpg"
+        "img": "https://www.lidherma.com/thumbnails/lidherma_solares_brumissage1_680xauto.jpg",
+        "stock": 15
     },
     {
         "id": 20,
@@ -177,6 +196,7 @@
         "categoria": "corporal",
         "descripcion": "Gel refrescante con efecto frío, ideal para masajes reductores.",
         "precio": 6900,
-        "img": "https://idraetprobody.com/wp-content/uploads/Porfolio/Profesional/crioactive.png"
+        "img": "https://idraetprobody.com/wp-content/uploads/Porfolio/Profesional/crioactive.png",
+        "stock": 15
     }
 ]
