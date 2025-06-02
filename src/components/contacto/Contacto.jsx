@@ -4,6 +4,10 @@ const Contacto = () => {
 
     const {register, handleSubmit} = useForm();
 
+    const enviarForm = (data) => {
+        console.log(data)
+    }
+
     return (
         <div className="posicion-contenedor ">
             <div className="contenido-tienda">
