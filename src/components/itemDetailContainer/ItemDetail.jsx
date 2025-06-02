@@ -4,10 +4,8 @@ import { CartContext } from "../../context/CartContext";
 
 
 const ItemDetail = ({item}) => {
-    const {carrito, agregarAlCarrito} = useContext(CartContext);
+    const {agregarAlCarrito} = useContext(CartContext);
     const [cantidad, setCantidad] = useState(1);
-
-    console.log(carrito);
 
     const handleSumar = () => {
         cantidad < item.stock && setCantidad(cantidad + 1)

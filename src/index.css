@@ -12,10 +12,8 @@ body {
 /* Navbar */
 
 .nav-contenedor {
-    position: fixed;
     margin: 0 auto;
     width: 100%;
-    z-index: 1000;
     height: 0 auto;
     backdrop-filter: blur(10px);
     background-color: var(--tono-principal);
@@ -53,7 +51,7 @@ body {
 /* Contenedor lista productos */
 
 .posicion-contenedor{
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .posicion-contenedor h2{
