@@ -13,8 +13,10 @@ body {
 
 .nav-contenedor {
     position: fixed;
+    margin-top: -70px;
     width: 100%;
     z-index: 1000;
+    height: 70px;
     backdrop-filter: blur(10px);
     background-color: var(--tono-principal);
 }
@@ -44,11 +46,20 @@ body {
     letter-spacing: 2px;
 }
 
-.menu a{
+.menu a, .nav-carrito span{
     color: white;
 }
 
 /* Contenedor lista productos */
+
+.posicion-contenedor{
+    margin-top: 70px;
+}
+
+.posicion-contenedor h2{
+    text-align: center;
+    justify-content: center;
+}
 
 .contenido-tienda {
     max-width: 1200px;
@@ -123,7 +134,7 @@ body {
 .contenido-descripcion {
     background-color: white;
     max-width: 1150px;
-    margin: 0 auto;
+    margin: 70px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -180,3 +191,41 @@ body {
     color: black;
 }
 
+/* Test form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+}
+
+.form input{
+    padding: 8px;
+    width: 280px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.form input:focus {
+    outline: 0;
+    border: 2px solid var(--tono-principal);
+    outline: 2px solid var(--tono-principal);
+}
+
+.envio-form{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.envio-form:hover{
+    opacity: 0.7;
+}

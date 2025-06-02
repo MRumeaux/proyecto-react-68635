@@ -1,14 +1,16 @@
-import Item from "./Item";
+import Item from "./Item"
 import { aMayusculas } from "../../auxiliares/correccionesStrings";
 
 const ItemList = ({productos, tituloCategoria}) => {
     return (
-            <div className="contenido-tienda">
+            <div className="posicion-contenedor">
                 <h2>{aMayusculas(tituloCategoria)}</h2>
-                {productos.map((prod) => 
-                    <Item producto={prod} key={prod.id}/>
-                    )
-                }
+                <div className="contenido-tienda">
+                    {productos.map((prod) => 
+                        <Item producto={prod} key={prod.id}/>
+                        )
+                    }
+                </div>
             </div>
     )
 }

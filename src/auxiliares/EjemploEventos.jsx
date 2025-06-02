@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 
 
-const CodigoAUtilizar = () => {
+const EjemploEventos = () => {
     useEffect(() => {
         
         const clickear = () => {
@@ -23,4 +23,4 @@ const CodigoAUtilizar = () => {
     )
 }
 
-export default CodigoAUtilizar
+export default EjemploEventos
