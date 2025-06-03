@@ -1,29 +1,26 @@
 import { useEffect, useState } from "react"
-import { pedirProductosPorId } from "../../auxiliares/importsAuxiliares"
 import ItemDetail from "./ItemDetail"
 import { useParams } from "react-router-dom"
-import Cargando from "../cargando/Cargando"
+import { doc, getDoc } from "firebase/firestore"
+import { db } from "../../firebase/config"
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState(null)
-    const [cargando, setCargando] = useState(true)
     const id = useParams().id;
 
 
     useEffect(() => {
-        pedirProductosPorId(Number(id))
+        const docuRef = doc(db, "productos", id);
+        getDoc(docuRef)
             .then((res) => {
-                setItem(res)
-                setTimeout(() => {
-                    setCargando(false)
-                }, 500)
+                setItem({...res.data(), id: res.id});
             })
-    }, [id])
+        }, [id])
     
 
     return (
         <div>
-            { cargando ? <Cargando/> : <ItemDetail item={item}/> }
+            { item && <ItemDetail item={item}/> }
         </div>
     )
 }
