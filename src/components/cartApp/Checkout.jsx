@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../../context/CartContext";
 import { useForm } from "react-hook-form";
-import { collection, addDoc, writeBatch } from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
 
 const Checkout = () => {
@@ -29,7 +29,7 @@ const Checkout = () => {
 
     if (pedidoId) {
         return (
-            <div className="contenido-tienda">
+            <div className="prod-cart">
                 <h1 className="titulo-principal">¡Compra realizada con éxito!</h1>
                 <p>Tu número de pedido es: {pedidoId}</p>
             </div>
