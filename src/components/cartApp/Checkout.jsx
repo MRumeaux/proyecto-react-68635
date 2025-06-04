@@ -19,6 +19,9 @@ const Checkout = () => {
 
         const pedidosRef = collection(db, "pedidos");
         addDoc(pedidosRef, pedido)
+            .then((doc) => { 
+                console.log(doc.id)
+            })
     }
 
     return (
