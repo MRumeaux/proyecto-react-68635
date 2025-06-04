@@ -10,17 +10,19 @@ const Cart = () => {
     }
 
     return (
-        <div>
+        <div className="alinear-detalle">
             <h1>Carrito</h1>
             {carrito.map((prod) => (
-
-                <div key={prod.id}>
-                    <h3>{prod.nombre_producto}</h3>
-                    <p>Precio unitario: ${prod.precio}</p>
-                    <p>Cantidad: {prod.cantidad}</p>
-                    <p>Precio total: ${prod.precio * prod.cantidad}</p>
-                    <br/>
-                </div>
+                    <div className="prod-cart" key={prod.id}>
+                        <img src={prod.img} alt={prod.nombre_producto} />
+                        <div>
+                            <h3>{prod.nombre_producto}</h3>
+                            <p>Precio unitario: ${prod.precio}</p>
+                            <p>Cantidad: {prod.cantidad}</p>
+                            <p>Precio total: ${prod.precio * prod.cantidad}</p>
+                        </div>
+                        <br/>
+                    </div>
 
                 ))
             }

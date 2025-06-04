@@ -19,20 +19,9 @@ const Checkout = () => {
 
         const pedidosRef = collection(db, "pedidos");
 
-        const actualizarStock = async (pedido) => {
-            const batch = writeBatch(db);
-            batch.set(pedidosRef, pedido);
-            pedido.productos.forEach(prod => {
-                const producto = doc(db, "productos", prod.id)
-                batch.update(producto, {stock: producto.stock - producto.cantidad})
-                });
-            await batch.commit();
-        }
-
         addDoc(pedidosRef, pedido)
             .then((doc) => { 
                 setPedidoId(doc.id);
-                actualizarStock();
                 vaciarCart();
             })
         
